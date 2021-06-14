@@ -1,0 +1,9 @@
+---
+- name: Instalando parches de Windows
+  hosts: all
+
+  tasks:
+  - name: Actualización de Seguridad
+    win_updates:
+      category_names:
+      - SecurityUpdates
