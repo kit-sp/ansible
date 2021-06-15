@@ -1,6 +1,6 @@
 ---
 - name: Instalando parches de Windows
-  hosts: all
+  hosts: win
 
   tasks:
   - name: Actualización de Seguridad
