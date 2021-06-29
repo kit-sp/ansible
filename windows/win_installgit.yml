@@ -1,0 +1,8 @@
+---
+- name: Instalar Git usando Chocolatey
+  hosts: all
+  tasks:
+    - name: Install Git
+      win_chocolatey:
+        name: git
+        state: present
